@@ -82,7 +82,7 @@ public class HttpHelper implements IHttpProcessor {
         try{
             return URLEncoder.encode(string,"utf-8");
         }catch (Exception e){
-            Log.e("参数转换异常",e.toString());
+            LogUtils.e("参数转换异常",e.toString());
             throw new RuntimeException(e);
         }
     }

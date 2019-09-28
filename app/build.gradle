@@ -30,13 +30,23 @@ dependencies {
     //okttp
     implementation("com.squareup.okhttp3:okhttp:4.2.0")
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    //glide
-    implementation 'com.github.bumptech.glide:glide:4.9.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
     //okgo
     implementation 'com.lzy.net:okgo:3.0.4'
     implementation 'com.lzy.net:okrx2:2.0.2'
     implementation 'com.lzy.net:okserver:2.0.5'
     //eventbus
     implementation 'org.greenrobot:eventbus:3.1.1'
+    //banner
+    implementation 'com.youth.banner:banner:1.4.10'
+    //glide
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'jp.wasabeef:glide-transformations:2.0.1'
+    //SmartRefreshLayout
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0'  //1.0.5及以前版本的老用户升级需谨慎，API改动过大
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0'  //没有使用特殊Header，可以不加这行
+    //recy
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+
 }

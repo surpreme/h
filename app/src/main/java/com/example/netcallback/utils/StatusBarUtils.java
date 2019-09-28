@@ -1,5 +1,6 @@
 package com.example.netcallback.utils;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
@@ -43,7 +44,7 @@ public class StatusBarUtils {
             }
         } catch (Exception e) {
             e.printStackTrace();
-            Log.e("error", String.valueOf(e));
+            LogUtils.e("error", String.valueOf(e));
         }
         return statusBarHeight;
     }
@@ -72,6 +73,7 @@ public class StatusBarUtils {
             setColor(((Activity) context).getWindow(), color);
 
     }
+
 
     /**
      * setBarTextColor
