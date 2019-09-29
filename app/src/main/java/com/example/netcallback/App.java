@@ -41,6 +41,7 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        mContext=this;
         /**
          * 全局初始化类（切换框架 换一个类即可）
          */

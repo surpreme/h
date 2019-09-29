@@ -3,8 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:id="@+id/refreshLayout"
-    android:background="#000">
+    android:id="@+id/refreshLayout">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="150dp">
@@ -14,5 +13,6 @@
             android:layout_height="150dp"
             android:padding="10dp"/>
     </LinearLayout>
+<!--    切记需要设置固定的高 否则不显示-->
 
 </com.scwang.smartrefresh.layout.SmartRefreshLayout>

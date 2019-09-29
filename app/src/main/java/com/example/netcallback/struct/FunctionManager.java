@@ -7,7 +7,7 @@ import java.util.HashMap;
 import javax.xml.transform.Result;
 
 public class FunctionManager {
-    private static FunctionManager mInstance;
+    private volatile static FunctionManager mInstance;
 
     private FunctionManager() {
         mFunctionNoParamNoResult = new HashMap<>();

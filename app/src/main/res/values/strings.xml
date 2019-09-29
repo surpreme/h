@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">netcallback</string>
+    <string name="str_add_accounts">account</string>
+    <string name="str_config_always_run_app">alwayRun</string>
+    <string name="str_config_wifi">wifi</string>
+    <string name="str_config_data">config</string>
+    <string name="str_system">system</string>
+    <string name="str_test_ntp">test</string>
+    <string name="str_fota_test">fota</string>
+    <string name="str_richdemo_slient_uninstall_test">uninstall</string>
+    <string name="str_slient_install_richdemo">install</string>
+    <string name="str_toolbar_exit">toolbar</string>
+    <string name="str_test_autoinstall">test</string>
 </resources>

@@ -54,7 +54,7 @@ public class Fragment2 extends BaseFragment {
         recyclerView = view.findViewById(R.id.recy);
         recyclerView.setAdapter ( new SimpleAdapter(getContext(), Arrays.asList ( names ) ,imgResId) );
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager ( getContext() );
-        linearLayoutManager.setOrientation ( LinearLayoutManager.HORIZONTAL );
+        linearLayoutManager.setOrientation ( LinearLayoutManager.VERTICAL );
         recyclerView.setLayoutManager ( linearLayoutManager );
         PagerSnapHelper snapHelper = new PagerSnapHelper ();
         snapHelper.attachToRecyclerView ( recyclerView );
